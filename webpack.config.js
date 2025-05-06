@@ -8,6 +8,7 @@ module.exports = {
   },
   devServer: {
     static: './public',
+    historyApiFallback: true, // Redirige toutes les requêtes vers index.html
   },
   module: {
     rules: [
